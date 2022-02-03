@@ -1,18 +1,8 @@
-REMIX EXAMPLE PROJECT
+CROWD FUNDING THROUGH SMART CONTRACTS
 
-Remix example project is present when Remix loads very first time or there are no files existing in the File Explorer. 
-It contains 3 directories:
+This smart contract is created on REMIX.
+It immitates the very basic working of a crowd funding round but in a more secure and trustworthy way of blockchain.
 
-1. 'contracts': Holds three contracts with different complexity level, denoted with number prefix in file name.
-2. 'scripts': Holds two scripts to deploy a contract. It is explained below.
-3. 'tests': Contains one test file for 'Ballot' contract with unit tests in Solidity.
+Through this smart contract a funding manager can receive the funding from different people or entities in the form of ETH. Smart Contract ensures that the funding is only given to the cause which is favoured by the majority and give voting rights to the donors. If the deadline for fund raising is passed and the target amount is not reached the smart contract automatically returns the amount to the donors wallet ensuring the ethics. Also if the majority rules out the possibilty of funding for a project then also the amount returns to the donors amount. The smart contract also ensures that the amount goes to the wallet linked to the cause only. 
 
-SCRIPTS
 
-The 'scripts' folder contains example async/await scripts for deploying the 'Storage' contract.
-For the deployment of any other contract, 'contractName' and 'constructorArgs' should be updated (along with other code if required). 
-Scripts have full access to the web3.js and ethers.js libraries.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-
-Output from script will appear in remix terminal.
